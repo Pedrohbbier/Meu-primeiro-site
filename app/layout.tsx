@@ -36,14 +36,38 @@ export default function RootLayout({
 
 
 export const Header = () => {
+
   return (
-      <header id='menu' >
-        <a href="#menu" className='links'>Início</a>
-        <a href="#ns" className='links'  >Nossos serviços</a>
+      <div>
+        
+        <header id='menu' >
+          <a href="#menu" className='links'>Início</a>
+          <a href="#ns" className='links'  >Nossos serviços</a>
+          <img src='/logo.png' id='imgLogo' />
+          <a href="#qsn" className='links'   >Quem somos nós?</a>
+          <a href="#contatoTitle" className='links' >Contato</a>
+        </header>
+
+
+
+        <header id='menuC' >
+        <div id="menuToggle"  >
+        <input id="checkbox" type="checkbox"></input>
+        <label className="toggle" htmlFor="checkbox">
+        <div className="bar bar--top"></div>
+        <div className="bar bar--middle"></div>
+        <div className="bar bar--bottom"></div>
+        </label>
+        </div>
         <img src='/logo.png' id='imgLogo' />
-        <a href="#qsn" className='links'   >Quem somos nós?</a>
-        <a href="#contatoTitle" className='links' >Contato</a>
-      </header>
+        </header>
+        <div id='headerLinks' >
+          <div ><a  href="#menuC"  id='inicioBlack'  >Início</a></div>
+          <div className='divDoLink' ><a href="#ns" className='links'  >Nossos serviços</a></div>
+          <div className='divDoLink' ><a href="#qsn" className='links'   >Quem somos nós?</a></div>
+          <div className='divDoLink' ><a href="#contatoTitle" className='links' >Contato</a></div>
+        </div>
+      </div>
   );
 };
 
@@ -128,6 +152,7 @@ export const Content = () => {
           <p>Marmoraria Santa Rosa Palotina</p>
         </div>
       </section>
+
       </div>
     </main>
     )
