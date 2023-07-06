@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import Slide from './swiperservico/Swiper'
 import SlideInicio from './swiperinicio/SwiperInicio'
 const inter = Inter({ subsets: ['latin'] })
+import { WhatsAppButton } from './button'
 
 export const metadata = {
   title: 'Marmoraria Santa Rosa',
@@ -50,15 +51,7 @@ export const Content = () => {
   return(
 
     <main>
-      <script src="botaoZap.js"></script>
-      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'/>
-      <a className='whatsapp-link' href='https://wa.link/ag8ul1' target='_blanck'>
-      <i className='fa fa-whatsapp'></i>
-      </a>
-      
-      <a className='top' href='#menu'>
-        <i className='toppage'><img id='seta' src='./seta.png'/> </i>
-      </a>
+      <WhatsAppButton/>
 
       <section id= 'inicio'>
         <SlideInicio/>
@@ -147,7 +140,6 @@ export const Footer = () => {
         <p> Site desenvolvido por <span id='cttp'> <a href='https://github.com/Pedrohbbier' target='_blanck'> Pedro Henrique Boldori Bier </a> </span> e <a href='https://github.com/Andreyspl' target='_blanck' ><span id='ctta'>Andrey Henrique Splett Pires</span></a></p>
         <p>Clique em nossos nomes para nossos contatos!</p>
         <p>© Marmoraria Santa Rosa</p>
-        <p>aaaa</p>
       </section>
     </footer>
   )

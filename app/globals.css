@@ -362,10 +362,67 @@ section#info{
 #dadosCriador{
   width: 100%;
   height: 150px;
-  background-color: grey ;
+  background-color: rgb(190, 190, 190) ;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span#cttp{
+  color:#9d2127;
+}
+
+span#ctta{
+  color:#9d2127;
 }
 
 .mapouter{position:relative;text-align:right;width:800px;height:593px;}
 .gmap_canvas {overflow:hidden;background:none!important;width:100%;height:593px;}
 .gmap_iframe {height:593px}
+
+@media(max-width:1330px){
+  #textao{
+    font-size: 0.8em;
+  }
+
+  p#qsnp{
+    font-size: 4em;
+    line-height: 80px;
+  }
+
+  p#msr{
+    font-size: 2em;
+  }
+
+  section#contatoTitle{
+    font-size: 3.4em;
+  }
+
+  section#fbframe{
+    margin-left: 0px;
+  }
+
+  section#maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
+    row-gap: 50px;
+  }
+  .mapouter{
+    width: 90%;
+  }
+}
+
+@media(max-width:850px){
+  #textao{
+    font-size: 0.7em;
+  }
+  p#qsnp{
+    font-size: 3.8em;
+  }
+}
+
+/*celular = 800px para baixo*/
