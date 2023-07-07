@@ -39,3 +39,9 @@
   .swiper-button-next{
     color: #9d2127 ;
   }
+
+  @media(max-width:800px){
+    #swiperInicio{
+      height: 40vh;
+    }
+  }
