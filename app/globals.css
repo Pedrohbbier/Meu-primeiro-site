@@ -461,11 +461,11 @@ span#ctta{
     justify-content: space-around;
     align-items: center;
     background-color: lightgray;
-    height: 20vh;
+    height: 10vh;
     width: 100%;
   }
   #menuC img {
-    width: 40%;
+    width: 20%;
   }
 
   #checkbox {
@@ -474,11 +474,11 @@ span#ctta{
   
   .toggle {
     position: relative;
-    width: 40px;
+    width: 31px;
     cursor: pointer;
     margin: auto;
     display: block;
-    height: calc(4px * 3 + 11px * 2);
+    height: calc(3px * 3 + 11px * 2);
   }
   
   .bar {
@@ -535,13 +535,12 @@ span#ctta{
   }
 
   div#headerLinks{
-    height: 300px;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
     padding-top: 55px;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     row-gap: 30px;
   }

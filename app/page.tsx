@@ -11,7 +11,7 @@ import { WhatsAppButton } from './button'
 
 export default function Home() {
   return (
-    <div id='ElementoPai' >
+    <div id='ElementoPai'>
       <main>
       <Header></Header>
       <HeaderPc></HeaderPc>
@@ -19,7 +19,7 @@ export default function Home() {
       <section id= 'inicio'>
         <SlideInicio/>
         <section id='inicioWrite' >
-          <p id='Inicio1'>Agilidade, atendimento e excelência <br></br><span id='Inicio2'>Você encontra em nossa empresa</span></p>
+          <p id='Inicio1'>Agilidade e excelência no atendimento <br></br><span id='Inicio2'>Você encontra em nossa empresa</span></p>
           <a href='https://wa.link/ag8ul1' target='_blanck' ><button id='orcamento'>Faça já seu orçamento! <img id='wpp' src='./whatsapp-2.png' alt='Imagem Whatsapp' /> </button></a>
         </section>
       </section>
