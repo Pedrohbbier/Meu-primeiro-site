@@ -566,6 +566,10 @@ span#ctta{
     line-height: 45px;
   }
 
+  p#Inicio1{
+    font-size: 1.2em;
+}
+
   section#inicio{
     height: 80vh;
   }
